@@ -9,7 +9,6 @@ if [[ $var =~ $re ]]
 then
     for ((i = 0; i <= $var; i++))
     do
-        echo $var
         if [[ $i -le 9 ]]
             then
             mkdir ex0$i
